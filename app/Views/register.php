@@ -56,7 +56,7 @@
                     </div>
                     <div class="mb-3">
                         <label for="InputAddress" class="form-label">Address</label>
-                        <input type="text" name="address" class="form-control" id="InputAddress">
+                        <input type="text" name="address" class="form-control" id="InputAddress" value="<?= set_value('address') ?>">
                     </div>
                     <div class="row">
                         <div class="col-md-6">
