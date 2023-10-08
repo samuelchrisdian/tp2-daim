@@ -3,7 +3,7 @@
 
 <head>
     <title>
-        TSamdev | Samuel's Portfolio Page
+        TP2 - Data and Information Management
     </title>
     <style>
         @import url('https://fonts.googleapis.com/css?family=Poiret+One|Source+Sans+Pro');
@@ -136,8 +136,9 @@
     <div class="stars3" aria-hidden="true"></div>
     <main class="main">
         <section class="contact">
-            <h1 class="title">TSamdev.com</h1>
-            <h2 class="sub-title">Site Under Construction</h2>
+            <h1 class="title">Welcome to TP2 DAIM Website!</h1>
+            <h2 class="sub-title">Name : <?= $session->get('name') ?> Role : <?= $session->get('role') ?></h2>
+            <a href="/login/logout">Logout</a>
         </section>
     </main>
 </body>
